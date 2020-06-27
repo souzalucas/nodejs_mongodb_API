@@ -4,21 +4,21 @@ const config = () => {
     switch (env) {
         case 'dev':
         return {
-            bd_string: 'mongodb+srv://usuario_admin:letrasenumeros@clusterapi-49ckw.mongodb.net/teste?retryWrites=true&w=majority',
+            bd_string: 'mongodb+srv://usuario_admin:senha@clusterapi-49ckw.mongodb.net/teste?retryWrites=true&w=majority',
             jwt_pass: 'senhadowebtoken',
             jwt_expires_in: '7d'
         }
 
         case 'hml':
         return {
-            bd_string: 'mongodb+srv://usuario_admin:letrasenumeros@clusterapi-49ckw.mongodb.net/teste?retryWrites=true&w=majority',
+            bd_string: 'mongodb+srv://usuario_admin:senha@clusterapi-49ckw.mongodb.net/teste?retryWrites=true&w=majority',
             jwt_pass: 'senhadowebtoken',
             jwt_expires_in: '7d'
         }
 
         case 'prod':
         return {
-            bd_string: 'mongodb+srv://usuario_admin:letrasenumeros@clusterapi-49ckw.mongodb.net/teste?retryWrites=true&w=majority',
+            bd_string: 'mongodb+srv://usuario_admin:senha@clusterapi-49ckw.mongodb.net/teste?retryWrites=true&w=majority',
             jwt_pass: 'senhadowebtoken',
             jwt_expires_in: '7d'
         }
